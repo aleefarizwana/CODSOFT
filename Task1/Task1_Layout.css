@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color:#926239;
+    line-height: 1.6;
+}
+
+.show{
+    background-image: url('https://tse3.mm.bing.net/th?id=OIP.BoSHUr8HrfXGK5jHqxHy6AHaEM&pid=Api&P=0&h=180');
+    background-size: cover;         /* entire image will be placed */
+
+    height: 100vh;               /* viewport heights vh 50 slices of 100 slices*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+}
+
+#show h1{
+    font-size: 50px;
+
+}
+
+#show p{
+    font-size: 20px;
+
+}
+#show .button{
+    font-size: 20px;
+    text-decoration: none;
+    color: #926239;
+    border: #926239 1px solid;
+   
+    border-radius: 10px;
+    
+}
+
+#section-a{
+    padding: 20px;
+    background: #926239;
+    color: #fff;
+    text-align: center;
+}
+
+
+#section-b{
+    padding: 20px;
+    background: #f4f4f4;
+    text-align: center;
+}
+#section-c{
+    display:flex;
+}
+#section-c .box1,#section-c .box3{
+    background-color: #926239;
+    color: #fff;
+}
+#section-c .box2{
+    background-color :#f9f9f9;;
+    color: #926239;
+}
+
+
+
+li{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+    font-size: 1rem;
+
+}
+
+a:hover{
+    color: orange;
+}
+
+.navbar{
+    width: 100vw;
+    height: 60vh;
+    margin-top: 0px;
+    display: flex;
+    align-items:center;
+    display: flex;
+    flex-direction: row;
+
+}
+.navbar .logo a{
+    font-size: 1.5rem;
+    font-weight:bold;
+    margin-left: 15px;
+    margin-top: 0px;
+   
+}
+
+.navbar .links{
+    display: flex;
+  
+    gap: 2rem;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.navbar .toggle_btn{
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+.action_btn{
+    background-color: orange;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: scale 0.2 ease;
+}
+.action_btn:hover{
+    scale: 0.9s;
+}
+
+/* 
+Responsive Design */
+@media(max-width:992px){
+    .navbar .links,navbar .action_btn{
+        display:none;
+    }
+}
