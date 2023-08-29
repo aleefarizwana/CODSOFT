@@ -1,0 +1,28 @@
+.d2{
+    background-color: antiquewhite;
+}
+.d1{
+    display: flex;
+    margin-left: 1200px;
+    flex-direction: column;
+   
+}
+#p1{
+    margin-left: 150px;
+    color: blue;
+    font-family: serif;
+}
+
+#skills{
+    font-size: medium;
+}
+h3{
+    font-family: serif;
+    font-size: larger;
+}
+skills.p{
+    font-size: medium;
+}
+p{
+    font-size: large;
+}
